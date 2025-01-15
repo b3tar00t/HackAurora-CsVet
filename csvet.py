@@ -3,7 +3,7 @@ import time
 import google.generativeai as genai
 import subprocess
 
-genai.configure(api_key="AIzaSyDNsSei1w6Q4Oa6iSz2ZWskDcXkf9GvErI")
+genai.configure(api_key="Add your api key here")
 
 def upload_to_gemini(path, mime_type="video/mp4"):
     """Uploads the given file to Gemini."""
